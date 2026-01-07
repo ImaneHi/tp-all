@@ -1,10 +1,7 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven3'
-    }
-
+    
     environment {
         SONARQUBE_SERVER = 'SonarQube'
     }
